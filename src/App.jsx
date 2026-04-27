@@ -169,10 +169,16 @@ export default function App() {
               La plateforme marocaine qui transforme les invendus des commerçants en opportunités pour les citoyens. Mangez mieux, payez moins, sauvez la planète.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="px-8 py-4 rounded-full text-white font-bold text-lg flex justify-center items-center gap-3 bg-[#2ECC71] hover:bg-[#27ae60] active:scale-95 transition-all shadow-xl shadow-[#2ECC71]/30 hover:-translate-y-1">
+              <button 
+                onClick={() => window.location.href = "https://gastro-cycle-app.vercel.app/"}
+                className="px-8 py-4 rounded-full text-white font-bold text-lg flex justify-center items-center gap-3 bg-[#2ECC71] hover:bg-[#27ae60] active:scale-95 transition-all shadow-xl shadow-[#2ECC71]/30 hover:-translate-y-1"
+              >
                 <Smartphone size={24}/> Obtenir l'App
               </button>
-              <button className="px-8 py-4 rounded-full font-bold text-lg flex justify-center items-center gap-2 bg-white text-[#111] border-2 border-gray-200 hover:border-[#111] active:scale-95 transition-all">
+              <button 
+                onClick={() => window.location.href = "https://gastro-cycle-app.vercel.app/"}
+                className="px-8 py-4 rounded-full font-bold text-lg flex justify-center items-center gap-2 bg-white text-[#111] border-2 border-gray-200 hover:border-[#111] active:scale-95 transition-all"
+              >
                 Je suis professionnel
               </button>
             </div>
@@ -566,10 +572,16 @@ export default function App() {
           <BrandLogo size={80} color="#2ECC71" className="mx-auto mb-8 shadow-2xl" />
           <h2 className="text-4xl md:text-6xl font-outfit font-black text-white mb-8">Prêt à faire la différence ?</h2>
           <div className="flex flex-col sm:flex-row justify-center gap-4 mb-16">
-            <button className="px-10 py-4 rounded-2xl font-bold text-lg text-[#2ECC71] bg-white hover:bg-gray-50 active:scale-95 transition-all shadow-xl">
+            <button 
+              onClick={() => window.location.href = "https://gastro-cycle-app.vercel.app/"}
+              className="px-10 py-4 rounded-2xl font-bold text-lg text-[#2ECC71] bg-white hover:bg-gray-50 active:scale-95 transition-all shadow-xl"
+            >
               Rejoindre en tant que citoyen
             </button>
-            <button className="px-10 py-4 rounded-2xl font-bold text-lg text-white border-2 border-white hover:bg-white/10 active:scale-95 transition-all mb-24">
+            <button 
+              onClick={() => window.location.href = "https://gastro-cycle-app.vercel.app/"}
+              className="px-10 py-4 rounded-2xl font-bold text-lg text-white border-2 border-white hover:bg-white/10 active:scale-95 transition-all mb-24"
+            >
               Inscrire mon commerce
             </button>
           </div>
